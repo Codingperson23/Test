@@ -21,7 +21,8 @@ for score in book.values():
                 last_kid="bob"           
                 last_score=score
             
-print("Top kid:", top_kid, "with score", top_score)                                                                                                                                                                                print("Last kid:", last_kid, "with score", last_score)
+print("Top kid:", top_kid, "with score", top_score)                                                                                  print("Last kid:", last_kid, "with score", last_score)
 search_name = input('Enter a name to search for:')
 if search_name in book:
-    grade
+    grade = book[search_name]
+    print(f"{search_name} has a score of {grade}")
